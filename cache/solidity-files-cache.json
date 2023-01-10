@@ -65,7 +65,7 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        "^0.8."
       ],
       "artifacts": [
         "Whitelist"

@@ -29,6 +29,6 @@ contract Lock {
 
         emit Withdrawal(address(this).balance, block.timestamp);
 
-        owner.transfer(address(this).balance)2;
+        owner.transfer(address(this).balance);
     }
 }

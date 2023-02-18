@@ -118,7 +118,7 @@ describe("Lock", function () {
 
         await expect(lock.withdraw()).to.changeEtherBalances(
           [owner, lock],
-          [lockedAmount, -lockedAmount]
+          [lockedAmount, -lockedAmount1]
         );
       });
     });

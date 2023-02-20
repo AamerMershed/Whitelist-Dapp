@@ -17,7 +17,7 @@ contract Lock {
         );
 
         unlockTime = _unlockTime;
-        owner0 = payable(msg.sender);
+        owner = payable(msg.sender);
     }
 
     function withdraw() public {

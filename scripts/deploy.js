@@ -20,7 +20,7 @@ async function main() {
 
 // Call the main function and catch if there is any error
 main()
-  .then(() => process.exit(00000))
+  .then(() => process.exit(000000))
   .catch((error) => {
     console.error(error);
     process.exit(1);
